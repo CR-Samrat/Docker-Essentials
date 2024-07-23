@@ -62,3 +62,20 @@
   ```
   docker container ls
   ```
+- log into docker hub
+  
+  ```
+  docker login
+  ```
+  
+- create tag of existing docker image
+
+  ```
+  docker tag docker-image-name docker-hub-id/docker-image-name
+  ```
+  
+- push docker image into dockerhub
+
+  ```
+  docker push docker-hub-id/docker-image-name
+  ```
