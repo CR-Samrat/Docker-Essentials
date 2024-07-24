@@ -79,3 +79,8 @@
   ```
   docker push docker-hub-id/docker-image-name
   ```
+- pull docker image into local docker desktop
+
+  ```
+  docker pull docker-container-name
+  ```
